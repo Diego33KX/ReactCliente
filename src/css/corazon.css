@@ -1,0 +1,19 @@
+.favorite{
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.favorite svg{
+  transform: translatey(5px);
+}
+.favorite:hover{
+  background: red;
+}
+.favorite:hover svg{
+  fill: white;
+}
